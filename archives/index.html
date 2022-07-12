@@ -56,6 +56,11 @@
             <span>&ensp;tags</span>
         </a>
         
+        <a href="/bangumis">
+            <i class="fa-solid fa-film fa-fw"></i>
+            <span>&ensp;bangumis</span>
+        </a>
+        
     </div>
     <div :class="'phone-menu ' + menu_show" id="phone-menu">
         <div class="curtain" @click="menu_show = !menu_show" v-show="menu_show"></div>
@@ -111,6 +116,15 @@
                 </div>
             </a>
             
+            <a href="/bangumis">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-film fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">bangumis</div>
+                </div>
+            </a>
+            
         </div>
         </transition>
     </div>
@@ -146,14 +160,14 @@
                     
                     <span class="tag">
                         
-                        <a href="/tags/生活" style="color: #00a596">
+                        <a href="/tags/生活" style="color: #00bcd4">
                             生活
                         </a>
                     </span>
                     
                     <span class="tag">
                         
-                        <a href="/tags/感悟" style="color: #00bcd4">
+                        <a href="/tags/感悟" style="color: #00a596">
                             感悟
                         </a>
                     </span>
