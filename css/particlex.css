@@ -432,7 +432,7 @@ pre .language {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
+} 
 #home-posts-wrap {
     position: relative;
     display: -webkit-box;
@@ -591,10 +591,7 @@ pre .language {
     padding: 5px;
     margin: 0 7px;
 }
-#home-card {
-    position: relative;
-    width: 300px;
-}
+
 #card-div {
     position: -webkit-sticky;
     position: sticky;
@@ -1202,6 +1199,9 @@ footer .footer-icon {
     color: #9dd1ff;
 }
 @media (min-width: 900px) {
+    #home-background {
+        background-image: url(https://www.makura-soft.com/sakuranotoki/img/special/rin.png);
+    }
     #menu .desktop-menu {
         display: block;
     }
@@ -1252,7 +1252,7 @@ footer .footer-icon {
     }
     .home-posts-wrap-no-card {
         max-width: 900px !important;
-    }
+    } 
     #home-posts {
         width: 800px;
         margin-left: auto;
@@ -1266,6 +1266,8 @@ footer .footer-icon {
         padding: 20px 0;
     }
     #home-card {
+        width: 300px;
+        position: relative;
         margin-right: auto;
     }
     .article {
@@ -1285,6 +1287,9 @@ footer .footer-icon {
     }
 }
 @media (min-width: 900px) and (max-width: 1200px) {
+    #home-background {
+        background-image: url(https://www.makura-soft.com/sakuranotoki/img/special/rin.png);
+    }
     #home-posts-wrap {
         width: 900px;
         padding: 30px 0;
@@ -1298,6 +1303,9 @@ footer .footer-icon {
     }
 }
 @media (max-width: 900px) {
+    #home-background {
+        background-image: url(https://wx4.sinaimg.cn/mw1024/a8a888e6gy1gih6dak7zuj20u016dx6q.jpg);
+    }
     #menu .desktop-menu {
         display: none;
     }
