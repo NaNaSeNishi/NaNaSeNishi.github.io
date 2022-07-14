@@ -1320,7 +1320,7 @@ footer .footer-icon {
         position: absolute;
         width: 350px;
         height: 350px;
-        display: none;
+        display: inline-block;
     }
     #home-head .home-info .info {
         display: -webkit-box;
