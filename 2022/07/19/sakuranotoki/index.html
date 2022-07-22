@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
         <title>
-            乃琳按钮网站开发相关记录 | MY BLOG
+            『サクラノ刻－櫻の森の下を歩む－』OP | MY BLOG
         </title>
         <meta name="author" content="Clucky酱">
         <meta name="description" content="">
@@ -159,22 +159,22 @@
                         
 <div class="article">
     <div>
-        <h1>乃琳按钮网站开发相关记录 </h1>
+        <h1>『サクラノ刻－櫻の森の下を歩む－』OP </h1>
     </div>
     <div class="info">
         <span class="date">
             <span class="icon">
                 <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
             </span>
-            2022/7/13
+            2022/7/19
         </span>
         
         <span class="category">
-            <a href="/categories/开发">
+            <a href="/categories/评论">
                 <span class="icon">
                     <svg class="fa-icon"><use xlink:href="#bookmark-solid"></use></svg>
                 </span>
-                开发
+                评论
             </a>
         </span>
         
@@ -186,22 +186,22 @@
             
             <span class="tag">
                 
-                <a href="/tags/Vue" style="color: #ffa2c4">
-                    Vue
+                <a href="/tags/二刺螈" style="color: #00bcd4">
+                    二刺螈
                 </a>
             </span>
             
             <span class="tag">
                 
-                <a href="/tags/JavaScript" style="color: #ffa2c4">
-                    JavaScript
+                <a href="/tags/感悟" style="color: #00bcd4">
+                    感悟
                 </a>
             </span>
             
             <span class="tag">
                 
-                <a href="/tags/idol" style="color: #ff7d73">
-                    idol
+                <a href="/tags/Galgame" style="color: #ff7d73">
+                    Galgame
                 </a>
             </span>
             
@@ -210,51 +210,39 @@
     </div>
     <div class="content" v-pre>
         <blockquote>
-<h4 id="eileen-button"><a href="#eileen-button" class="headerlink" title="eileen-button"></a>eileen-button</h4><p><strong>A simple vtuber button site for Eileen.</strong><br><strong>A-Soul 虚拟偶像乃琳的音声按钮站。</strong></p>
+<h4 id="「刻ト詩」"><a href="#「刻ト詩」" class="headerlink" title="「刻ト詩」"></a>「刻ト詩」</h4><p>歌唱　　　：Luna<br>作曲／編曲：松本文紀<br>作詞　　　：すかぢ<br>ムービー　：癸乙夜[Mju:Z]</p>
 </blockquote>
 <span id="more"></span>
-<p><strong>项目仓库 ：</strong><a target="_blank" rel="noopener" href="https://github.com/NaNaSeNishi/Eileen_button">github.com</a></p>
-<p><strong>网站链接 ：</strong><a target="_blank" rel="noopener" href="https://eileenbtn.com/">eileenbtn.com</a></p>
-<p><strong>Bilibili ：</strong> <a target="_blank" rel="noopener" href="https://space.bilibili.com/672342685">乃琳Queen</a></p>
-<h4 id="项目相关说明"><a href="#项目相关说明" class="headerlink" title="项目相关说明"></a>项目相关说明</h4><h5 id="项目结构"><a href="#项目结构" class="headerlink" title="项目结构"></a>项目结构</h5><p>本项目采用Vue2.x开发</p>
-<pre><code>    |-- public
-    |   |-- favicon.ico
-    |   |-- index.html
-    |   |-- voices  音频文件
-    |-- src
-        |-- App.vue
-        |-- main.js
-        |-- voices.json  音频文件信息
-        |-- components
-        |   |-- Btn.vue  按钮
-        |   |-- HelloWorld.vue  主页相关信息
-        |-- router
-        |   |-- index.js  路由
-        |-- views
-            |-- About.vue  主页面
-            |-- Button.vue  按钮页面
-</code></pre>
-<h5 id="参与完善本项目"><a href="#参与完善本项目" class="headerlink" title="参与完善本项目"></a>参与完善本项目</h5><ul>
-<li>在Issues提出您的建议。</li>
-<li>fork 本项目进行修改，创建新分支并发起 Pull Request。</li>
-</ul>
-<h5 id="参与完善收录音声音整理"><a href="#参与完善收录音声音整理" class="headerlink" title="参与完善收录音声音整理"></a>参与完善收录音声音整理</h5><p><strong>两种方法：</strong></p>
-<ul>
-<li>直接提供音频文件：请将音频文件转为MP3格式，响度目前采用ITU-R BS.1770-2标准，目标响度 -23LUFS（采用AU等软件调整不会调也没关系直接给我发就行），注明分类名，音频名发送至邮箱<a href="mailto:&#99;&#108;&#x75;&#99;&#107;&#x6b;&#x79;&#x79;&#x79;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#99;&#108;&#x75;&#99;&#107;&#x6b;&#x79;&#x79;&#x79;&#64;&#103;&#x6d;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a></li>
-<li>前往<a target="_blank" rel="noopener" href="https://m.weibo.cn/5554866845/4708475081327511">微博评论区</a>留言，指出哪一期直播&#x2F;哪一个视频 几分几秒到几分几秒的片段。</li>
-</ul>
-<h5 id="部署本地开发环境"><a href="#部署本地开发环境" class="headerlink" title="部署本地开发环境"></a>部署本地开发环境</h5><ul>
-<li>配置好node环境，clone项目到本地。</li>
-<li>安装：<pre><code class="bash">npm install
-</code></pre>
-</li>
-<li>运行：<pre><code class="bash">npm run serve
-</code></pre>
-</li>
-<li>打包<pre><code class="bash">npm run build
-</code></pre>
-</li>
-</ul>
+
+<h4 id="歌词"><a href="#歌词" class="headerlink" title="歌词"></a>歌词</h4><blockquote>
+<p>見つめる　雨の空の底<br>すべての想いを描け　この身が燃えて絵画となる<br>向日葵ノ詩　櫻ノ刻を奏でよ　交差する二つの眼<br>幸福の王子はツバメを待つ<br>絵画の下<br>永劫<br>約束された<br>大地に羽ばたけ<br>櫻よ　火花散る夢水<br>雨の底で　このうつくしい世界<br>眺めて　流れていく音楽　心で　永遠の空舞い上がる<br>鏡は色彩で　世界となり<br>夜に太陽が舞う<br>限界　超える筆の振動<br>向日葵　最後に君に届け　約束の軌跡</p>
+</blockquote>
+<h4 id="Video-Link"><a href="#Video-Link" class="headerlink" title="Video Link"></a>Video Link</h4><div class="bili_video"><iframe src="https://player.bilibili.com/player.html?aid=428447748&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" width="544" height="452" allowfullscreen="true"> </iframe></div>
+
+<h4 id="OP中部分出现作品"><a href="#OP中部分出现作品" class="headerlink" title="OP中部分出现作品"></a>OP中部分出现作品</h4><h5 id="la-gazza-ladra-《鹊贼》-罗西尼"><a href="#la-gazza-ladra-《鹊贼》-罗西尼" class="headerlink" title="la gazza ladra 《鹊贼》 罗西尼"></a><em><strong>la gazza ladra 《鹊贼》 罗西尼</strong></em></h5><blockquote>
+<p> La gazza ladra (Italian pronunciation: [la ˈɡaddza ˈlaːdra], The Thieving Magpie) is a melodramma or opera semiseria in two acts by Gioachino Rossini, with a libretto by Giovanni Gherardini based on La pie voleuse by Théodore Baudouin d’Aubigny and Louis-Charles Caigniez. The Thieving Magpie is best known for the overture, which is musically notable for its use of snare drums. This memorable section in Rossini’s overture evokes the image of the opera’s main subject: a devilishly clever, thieving magpie.</p>
+</blockquote>
+<blockquote>
+<p>Rossini wrote quickly, and La gazza ladra was no exception. A 19th-century biography quotes him as saying that the conductor of the premiere performance locked him in a room at the top of La Scala the day before the premiere with orders to complete the opera’s still unfinished overture. He was under the guard of four stagehands whose job it was to toss each completed page out the window to the copyist below. </p>
+</blockquote>
+<h5 id="картинки-с-выставкн-《展览的图画》-穆索尔斯基"><a href="#картинки-с-выставкн-《展览的图画》-穆索尔斯基" class="headerlink" title="картинки с выставкн 《展览的图画》 穆索尔斯基"></a><em><strong>картинки с выставкн 《展览的图画》 穆索尔斯基</strong></em></h5><blockquote>
+<p>《展览会之画》 又称《图画展览会》（俄语：Картинки с выставки），是俄罗斯作曲家莫杰斯特·穆索尔斯基创作的一套钢琴组曲。经后世音乐家改为管弦乐版后，吸引更多的听众，最有名的版本为拉威尔和斯托科夫斯基所作。<br>1874年6月穆索尔斯基写下钢琴组曲《展览会之画》，其灵感来自一次画作展览会，会上展出的是穆索尔斯基一位已逝世的朋友维克托·亚历山德罗维奇·哈特曼的画作。<br>本曲中分为漫步、侏儒、古堡、杜乐利花园、牛车、雏鸡之舞、穷富犹太人、市集、墓窟、女巫的小屋、基辅城门10段。其中的“漫步”穿插于全曲，加强了作品的整体性。</p>
+</blockquote>
+<h5 id="der-dichter-spricht-《诗人的话》罗伯特-舒曼"><a href="#der-dichter-spricht-《诗人的话》罗伯特-舒曼" class="headerlink" title="der dichter spricht 《诗人的话》罗伯特 舒曼"></a><em><strong>der dichter spricht 《诗人的话》罗伯特 舒曼</strong></em></h5><blockquote>
+<p>罗伯特·亚历山大·舒曼（德语：Robert Alexander Schumann；1810年6月8日－1856年7月29日），德国作曲家，音乐评论家，浪漫主义音乐成熟时期代表人物之一。舒曼生性热情、感情丰沛，富有民主主义思想。<br>《童年即景》（德语：Kinderszenen），作品15，是德国作曲家罗伯特·舒曼创作的一部钢琴套曲，由十三首曲目组成，写于1838年。在作品中，舒曼提供了他成年后的童年回忆。舒曼原本为写了30首曲目，而是选择了13首作为套曲最终版本。</p>
+</blockquote>
+<h5 id="night-on-bald-mountain-《荒山之夜》穆索尔斯基"><a href="#night-on-bald-mountain-《荒山之夜》穆索尔斯基" class="headerlink" title="night on bald mountain 《荒山之夜》穆索尔斯基"></a><em><strong>night on bald mountain 《荒山之夜》穆索尔斯基</strong></em></h5><blockquote>
+<p>《荒山之夜》（俄语：Ночь на лысой горе，罗马化：Noch′ na lysoy gore），是俄国作曲家莫杰斯特·穆索尔斯基创作的交响音画。《荒山之夜》和里姆斯基-科萨科夫的《萨特阔》都属于首批俄国作曲家创作的交响诗。<br>尽管穆索尔斯基为自己的创作感到自豪，但他的导师巴拉基列夫拒绝安排此作品的演出。为了挽救这部音乐材料，穆索尔斯基将其融入进与多个作曲家联合创作的歌剧芭蕾舞剧《姆拉达》中并增加歌唱部分，之后再次尝试利用材料创作歌剧《索罗钦斯的集市》。然而，这两部作品依旧没有公演。穆索尔斯基生前， 《荒山之夜》从未演出、发表。<br>1886 年，在穆索尔斯基去世五年后，经过修改与配器，里姆斯基-科萨科夫出版了这部作品的改编曲，被描述为“管弦乐队幻想曲”，并指挥俄罗斯交响乐协会（英语：Russian Symphony Society）于圣彼得堡首演。</p>
+</blockquote>
+<h5 id="mon-panache-我的羽毛-出自《西哈诺》"><a href="#mon-panache-我的羽毛-出自《西哈诺》" class="headerlink" title="mon panache 我的羽毛 出自《西哈诺》"></a><em><strong>mon panache 我的羽毛 出自《西哈诺》</strong></em></h5><blockquote>
+<p>西哈诺·德·贝杰拉克 （Savinien de Cyrano de Bergerac，1619年3月6日－1655年7月28日）是法国的军人、作家、哲学家。<br>以1897年上演的爱德蒙·罗斯丹的舞台剧“风流剑客”著名，作品描写因为大鼻子而自卑，而不敢向心仪的女性表达爱意，富有骑士精神、正义感强烈的男性。其著作‘月世界旅行记’和‘太阳世界旅行记’被视为科幻小说的先驱作品。</p>
+</blockquote>
+<h5 id="D’ou-venons-nous-Que-sommes-nous-Ou-allons-nous-《我们从哪里来-我们是什么-我们到哪里去-》-高更"><a href="#D’ou-venons-nous-Que-sommes-nous-Ou-allons-nous-《我们从哪里来-我们是什么-我们到哪里去-》-高更" class="headerlink" title="D’où venons-nous ? Que sommes-nous ? Où allons-nous ? 《我们从哪里来?我们是什么?我们到哪里去?》 高更"></a><em><strong>D’où venons-nous ? Que sommes-nous ? Où allons-nous ? 《我们从哪里来?我们是什么?我们到哪里去?》 高更</strong></em></h5><blockquote>
+<p>《我们从何处来？我们是谁？我们向何处去？》（法语：D’où venons-nous ? Que sommes-nous ? Où allons-nous ?）是保罗·高更于1897年12月完成的一幅布上油画，仍然以塔希提岛为背景。此画是高更最大幅、最有名的杰作。据画家所言，它是“直接画在皱巴巴的粗麻布上的，因此表面看来相当粗糙。”[1]该作是一幅具有总结性的作品，同年3月画家刚刚经历了丧女之痛，之后又一直受着梅毒和眼病的折磨，贫病交加的画家起意自尽，临死前完成这幅画作，因此这部作品集中表现了他对人生和艺术的见解。然而其后画家自杀未遂，得以继续创作另外一些最后的作品。</p>
+<blockquote>
+<img src='/images/Gauguin.jpg' style='width:80%;height:80%' />
+</blockquote>
+</blockquote>
 
     </div>
     
